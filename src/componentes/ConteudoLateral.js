@@ -1,19 +1,21 @@
 import logo from '../imagens/Instagram.webp';
-
-function ConteudoLateral(){
+import ListItem from './ListItem';
+export default function ConteudoLateral(){
     return(
         <div className="ConteudoLateral">
-            <img scr={logo} alt = 'logo' className='logo'></img>
-        <div>logo</div>
-        <div>menu
-          <ul>
-            <li>home</li>
-            <li>pesquisa</li>
-            <li>explorar</li>
-            <li>mensagens</li>
+            <img src={logo} alt='logo' className='logo'/>
+        
+        <div>
+          <ul className='MenuLateral'>
+            <ListItem text='home' icone='casa'/>
+            <ListItem text='pesquisa' icone='lupa'/>
+            <ListItem text='explorar' icone='bussola'/>
+            <ListItem text='mensagens' icone='chat'/>
+
           </ul>
         </div>
       </div>
     );
 }
-export default ConteudoLateral;
+
+

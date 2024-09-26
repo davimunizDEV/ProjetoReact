@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+.ConteudoLateral {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 100vh;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+ 
+.logo {
+    width: 50px;
+    background-color: blue;
+}
+ 
+.menuLateral {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    margin-top: 20px;
+}
+ 
+.menuLateral li {
+    margin-bottom: 10px;
+}
