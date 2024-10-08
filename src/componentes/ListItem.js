@@ -1,8 +1,10 @@
-export default function Listitem(props){
-return(
-    <div>
-        <span>{props.icone}</span>
-        <span>{props.text}</span>
-    </div>
-);
+export default function ListItem(props){
+    return (
+        <li>
+            <span>{props.icone}</span> 
+            <span className="texto-do-menu">{props.texto}</span>
+        </li>
+    )
 }
+
+//export default ListItem;

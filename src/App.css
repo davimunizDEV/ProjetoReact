@@ -3,28 +3,49 @@
     padding: 0;
     box-sizing: border-box;
 }
- 
+
+.App {
+    background: #CCC;
+    display: flex;
+    flex-direction: row;
+}
+
+.Stories{
+    background: #fff;
+    border: 1px solid #efefef;
+    width: 40vw;
+    height: 80px;
+}
+
+.Postagens{
+    background: #fefefe;
+    width: 40vw;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
 .ConteudoLateral {
     display: flex;
     flex-direction: column;
     width: 30vw;
     height: 100vh;
-    background-color: #f7f7f7;
+    background-color: #ccc;
     padding: 20px;
 }
- 
+
 .logo {
     width: 50px;
     background-color: blue;
 }
- 
+
 .menuLateral {
     display: flex;
     list-style: none;
     flex-direction: column;
     margin-top: 20px;
 }
- 
+
 .menuLateral li {
     margin-bottom: 10px;
 }
